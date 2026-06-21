@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ourwebsite</title>
+    
+  </head>
+  <style>
+        header{
+            background-color: dodgerblue;
+            font-size: 70px;
+            color: white;
+            text-align: center;
+            transition: all 1s ease-in-out;
+        }
+        footer{
+            background-color: dodgerblue;
+            font-size: 70px;
+            color: white;
+            text-align: center;
+        }
+        .Car{
+            display: flex;
+            justify-content: space-evenly;
+            transition: all 0.5s ease-in-out;
+        }
+        .Car:hover .Bag{
+            transform: scale(0.8);
+        }
+        .Car .Bag:hover{
+            transform: scale(0.9) rotate(5deg);
+            background-color: dodgerblue;
+            border: 3px solid black;
+            color: white;
+            box-shadow:  5px -5px black;
+        }
+        .Bag{
+            border: 3px dodgerblue solid ;
+            border-radius: 30px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+        }
+       img{
+        width: 300px;
+        height: 350px;
+        border: 3px dodgerblue solid ;
+        border-radius: 30px;
+       }
+  </style>
+  <body>
+    <header>Novians</header>
+    <br><br><br><br><br><br><br>
+    <div class="Car">
+        <div class="Bag">
+            <h1>Category</h1>
+            <img src="Student.jpg" alt="Main image" />
+            <h1>Students</h1>
+          </div>
+          <div class="Bag">
+            <h1>Category</h1>
+            <img src="https://d3kqdc25i4tl0t.cloudfront.net/articles/content/_536335_jobseeker.hero.jpg" alt="Main image" />
+            <h1>Job Seekers</h1>
+          </div>
+          <div class="Bag">
+            <h1>Category</h1>
+            <img src="https://static.joblist.com/static/job-descriptions/production-associate.jpg" alt="Main image" />
+            <h1>Workers</h1>
+          </div>
+          <div class="Bag">
+            <h1>Category</h1>
+            <img src="Homemakers.jpg" alt="Main image" />
+            <h1>Home Makers</h1>
+          </div>
+
+    </div>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <br><br><br><br><br><br><br>
+    <footer>success@novians.com</footer>
+  </body>
+</html>

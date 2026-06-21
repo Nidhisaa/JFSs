@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://assets.superhivemarket.com/store/productimage/787217/image/xlarge-d0e64897a897f8e30dd06c79fdf99979.png);
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        div{
+            box-shadow: 10px 10px 10px black;
+            border-radius: 50px;
+            width: 40%;
+            font-size: xx-large;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+        }
+        div:hover {
+            
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        input{
+            width: 300px;
+            height: 45px;
+            border:  3px solid black;
+            box-shadow: 5px 5px 5px black;
+            border-radius: 40px;
+        }
+        button{
+            width: 150px;
+            height: 45px;
+            background-color: black;
+            color: white;
+            border: 3px solid white;
+            border-radius: 30px;
+            font-size: large;
+        }
+        td{
+            padding-bottom: 30px;
+            padding-right: 20px;
+        }
+        ::placeholder{
+            font-size: larger;
+            padding-left: 30px;
+            color: black;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1>Login Here </h1>
+    <form>
+      <table>
+        <tr>
+          <td><label for="na">Name</label></td>
+          <td><input type="text" id="na" placeholder="Enter your name" /></td>
+        </tr>
+        <tr>
+          <td><label for="nu">Number</label></td>
+          <td>
+            <input type="number" id="nu" placeholder="Enter your number" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="em">E-mail</label></td>
+          <td><input type="email" id="em" placeholder="Enter your email" /></td>
+        </tr>
+        <tr>
+          <td><label for="pa">Password</label></td>
+          <td>
+            <input type="password" id="pa" placeholder="Enter your password" />
+          </td>
+        </tr>
+        <tr>
+         
+          <td><button>Login</button></td>
+        </tr>
+      </table>
+    </form>
+    
+    </div>
+  </body>
+</html>

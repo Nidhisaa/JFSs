@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ourwebsite</title>
+    
+  </head>
+  <style>
+    body{
+      margin: 0px;
+    }
+    header {
+      z-index: 5;
+      position: sticky;
+      top: 0px;
+      background-color: dodgerblue;
+      font-size: 70px;
+      color: white;
+      text-align: center;
+      transition: all 1s ease-in-out;
+      width: 100vw;
+      height: 10vh;
+    }
+    footer {
+      position: fixed;
+      bottom: 0px;
+      background-color: dodgerblue;
+      font-size: 70px;
+      color: white;
+      text-align: center;
+      width: 100vw;
+      height: 10vh;
+    }
+    .Car {
+      position: relative;
+      width: 100vw;
+      height: 80vh;
+      display: flex;
+      transition: all 0.5s ease-in-out;
+    }
+    .Car:hover .Bag {
+      transform: scale(0.8);
+    }
+    .Car .Bag:hover {
+      transform: scale(0.9) rotate(5deg);
+      background-color: dodgerblue;
+      border: 3px solid black;
+      color: white;
+      box-shadow: 5px -5px black;
+    }
+    .Bag {
+      border: 3px dodgerblue solid;
+      border-radius: 30px;
+      width: 350px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.5s ease-in-out;
+    }
+    img {
+      width: 300px;
+      height: 350px;
+      border: 3px dodgerblue solid;
+      border-radius: 30px;
+    }
+    #Bag1{
+      position: absolute;
+      top: 100px;
+      right: 30px;
+    }
+    #Bag2{
+      position: absolute;
+      top: 150px;
+      right: 410px;
+    }
+    #Bag3{
+      position: absolute;
+      top: 100px;
+      right: 790px;
+    }
+    #Bag4{
+      height: 40vh;
+      top: 20vh;
+      left: 150px;
+      font-size: 70px;
+      font-weight: bolder;
+      text-align: center;
+      position: absolute;
+    }
+  </style>
+  <body>
+    <header>Novians Club</header>
+    <div class="Car">
+      <div class="Bag" id="Bag1">
+        <h1>Category</h1>
+        <img src="Student.jpg" alt="Main image" />
+        <h1>Students</h1>
+      </div>
+      <div class="Bag" id="Bag2">
+        <h1>Category</h1>
+        <img
+          src="https://d3kqdc25i4tl0t.cloudfront.net/articles/content/_536335_jobseeker.hero.jpg"
+          alt="Main image"
+        />
+        <h1>Job Seekers</h1>
+      </div>
+      <div class="Bag" id="Bag3">
+        <h1>Category</h1>
+        <img
+          src="https://static.joblist.com/static/job-descriptions/production-associate.jpg"
+          alt="Main image"
+        />
+        <h1>Workers</h1>
+      </div>
+      <div id="Bag4">
+        Novians Club
+        <br><br>
+        Enrich You
+      </div>
+    </div>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <h1>Space</h1>
+    <footer>success@novians.com</footer>
+  </body>
+</html>
