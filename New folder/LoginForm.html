@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(ferrari9.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #Box{ 
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          font-size: xx-large;
+          color: white;
+        }
+        #Box input{
+           width: 300px; 
+           height: 40px;
+           border: 3px silver solid ;
+           border-radius: 20px;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+        #Box button{
+            width: 100px;
+            height: 35px;
+            background-color: black;
+            color: white;
+            font-size: large;
+            border: 3px solid white;
+            border-radius: 20px;
+        }
+        ::placeholder{
+            color: white;
+            font-size: larger;
+            padding-left: 20px;
+        }
+        td{
+            padding-bottom: 50px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Box">
+        <h1>Login Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="na">Name</label></td>
+                <td> <input type="text" id="na" placeholder="Enter Name"></td>
+            </tr>
+            <tr>
+                <td><label for="nu">Number</label></td>
+                <td><input type="number" id="nu" placeholder="Enter Number"></td>
+            </tr>
+            <tr>
+                <td>  <label for="em">E-mail</label></td>
+                <td><input type="email" id="em" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                
+                <td><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
